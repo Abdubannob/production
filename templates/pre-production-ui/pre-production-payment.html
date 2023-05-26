@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+
+   
+   <header>
+    <nav class="navbar justify-content-between fixed-top">
+        <div class="row d-block d-lg-none">
+            <div class="col">
+                <span style="font-size:30px;cursor:pointer" onclick="openSidebar()">&#9776;</span>
+                <div id="mySidebar" class="sidebar-overlay brand">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">CLOSE MENU &times;</a>
+                    <div class="sidebar-overlay-content">
+                        <li><a href="#" class="menu-edit">Edit profile</a></li>
+                        <li><a href="#" class="menu-password">Email & password</a></li>
+                        <li><a href="#" class="menu-social-channel">Social channels</a></li>
+                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col logo-web">
+                <a href="#" class="navbar-brand"><img src="../../images/topbar/Logo+Description.svg" alt="logo"></a>
+            </div>
+        </div>
+        <div class="middle-menu">
+            <ul>
+                <li><a href="#" class="pre-production active"></a></li>
+                <li><a href="../production-ui/production.html" class="production "></a></li>
+                <li><a href="../post-production-ui/post-production.html" class="post-production "></a></li>
+            </ul>
+        </div>
+        <div class="row align-items-center ">
+            <div class="col header-ava">
+                <!-- <button class="btn"><img class="m-0" src="../../images/icons/nav-bookmark.svg" alt="Bell"></button> -->
+                <button class="btn"><img src="../../images/topbar/bell.svg" alt="Bell"></button>
+                <a href="#" class="btn avatar "><img class="rounded-circle" src="../../images/ava.png" alt="ava"></a>
+            </div>
+        </div>
+    </nav>
+   </header>
+   <div class="container-responsive">
+    <div class="sidebar">
+        <div class="sidebar-body d-flex" style="height: auto; min-height: -webkit-fill-available;">
+            <div class="social">
+                <ul>
+                    <li><a href="#" class="home active"></a></li>
+                    <li><a href="youtube/youtube-brand.html" class="dashboard"></a></li>
+                    <li><a href="instagram/instagram-brand.html" class="profile"></a></li>
+                    <li><a href="facebook/facebook-brand.html" class="orders"></a></li>
+                    <li><a href="twitter/twitter-brand.html" class="commits"></a></li>
+                    <li><a href="linkedin/linkedin-brand.html" class="bookmarks"></a></li>
+                                  
+                </ul>
+                <ul>
+                    <li><a href="#" class="btn avatar m-0"><img class="rounded-circle" src="../../images/ava.png" alt="ava"></a></li>
+                    <li><a href="#" class="logout"></a></li>    
+                </ul>
+                <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
+            </div>
+      
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <main id="payment">
+       
+        <div class="story go-back articles">
+            <div class="top-main">
+                <div class="nav-title-back">
+                    <a href="#" class="btn"><img src="../../images/storyliner/go-back.svg" alt="back" /></a>
+                </div>
+                <p>Go back</p>  
+                <h1>Equipment name</h1> 
+                <div class="divider"></div> 
+                <button>Equipment</button>
+            </div>   
+         </div>
+
+         <div class="payment-box">
+            <h1>Choose payment method</h1>
+            <div class="span">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus aliquam commodo semper sed neque, arcu.</div>
+                      <div class="card-select">
+                         <form>
+                             <div class="form-check form-check-inline check-card">
+                                 <div class="d-flex" style="align-items: center;">
+                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked="">
+                                     <label class="form-check-label mb-0" for="inlineRadio1">
+                                         <div class="payment-img">
+                                             <img src="../../images/myicons/visa.svg" alt="logo">
+                                         </div>
+                                         <div class="payment-method">
+                                             <p>*** *** *** 2254</p>
+                                         </div>
+                                     </label>
+                                 </div>
+                             </div>
+                             <div class="form-check form-check-inline check-card">
+                                 <div class="d-flex" style="align-items: center;">
+                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                     <label class="form-check-label mb-0" for="inlineRadio2">
+                                         <div class="payment-img">
+                                             <img src="../../images/icons/master-card.svg" alt="logo">
+                                         </div>
+                                         <div class="payment-method">
+                                             <p>*** *** *** 2254</p>
+                                         </div>
+                                     </label>
+                                 </div>
+                             </div>
+                             <div class="form-check form-check-inline check-card">
+                                 <div class="d-flex" style="align-items: center;">
+                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                     <label class="form-check-label mb-0" for="inlineRadio3">
+                                         <div class="payment-img">
+                                             <img src="../../images/icons/paypal.svg" alt="logo">
+                                         </div>
+                                         <div class="payment-method">
+                                             <p>PayPal</p>
+                                         </div>
+                                     </label>
+                                 </div>
+                                </div>
+                                <h2>Order Note</h2>
+                                <textarea  cols="50" rows="8" placeholder="Give the influencer instructions or note... Optional"></textarea>
+                                 <div class="pay-add">
+                                    <button class="paying">Pay</button>
+                                    <button class="adding">Add new payment method</button>
+                                 </div>
+                         </form>
+                     </div>
+            </div>
+
+    </main>
+</div>
+<footer>
+    <div class="container">
+        <div class=" footer-items">
+          
+                
+            
+            
+            <div class="footer-socials">
+                <div class="footer-logo"><img src="../../images/storyliner/filmnWho.svg"></div>
+                <ul>
+                    <li><button class="btn"><img src="../../images/icons/instagram.svg" alt="icon"></button></li>
+                    <li><button class="btn"><img src="../../images/icons/facebook.svg" alt="icon"></button></li>
+                    <li><button class="btn"><img src="../../images/icons/twitter.svg" alt="icon"></button></li>
+                </ul>
+            </div>
+            <div class="footer-link footer-top-nav">
+                    <ul>
+                        <li class="navigation-main"><a href="#">Buyers</a></li>
+                        <li><a href="#">Buyers</a></li>
+                        <li><a href="#">Buyers pricing</a></li>
+                    </ul>
+                    <ul>
+                        <li class="navigation-main"><a href="#">Seller</a></li>
+                        <li><a href="#">Seller</a></li>
+                        <li><a href="#">Seller pricing</a></li>
+                    </ul>
+                    <ul>
+                        <li class="navigation-main"><a href="#">Resources</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                    <ul>
+                        <li class="navigation-main"><a href="#">About is</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+           
+            
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="footer-bottom">
+            <p>© filmnWho 2021. All rights reserved</p>
+            <a href="#">Terms and Conditions</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../../js/index.js"></script>
+
+  <script>
+    let btn = document.querySelector("#sidebtn");    
+    let sidebar = document.querySelector(".sidebar");    
+    let overlay = document.querySelector(".overlay");    
+    
+    btn.onclick = function() {
+        sidebar.classList.toggle("active"),
+        overlay.classList.toggle("active")
+    }
+    </script>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../../js/custom-chart.js"></script>
+
+</body>
+
+</html>

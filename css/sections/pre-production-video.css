@@ -1,0 +1,247 @@
+.video-card-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 340px));
+    grid-gap: 20px;
+}
+
+.video-card-list .top{
+    height: 220px;
+}
+
+.video-card-list .img{
+    height: 100%;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    object-fit: cover;
+    
+}
+
+.video-card-list .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.social-information{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.social-information button{
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.social-information button img{
+    width: 32px;
+    height: 32px;
+}
+
+.social-video-items {
+display: flex;
+flex-direction: column;
+}
+
+.social-video-items p{
+    font-size: 16px;
+    color: #212121;
+    font-weight: 700;
+    line-height: 19.79px;
+}
+
+.social-video-items span{
+    font-size: 12px;
+    color: #212121;
+    opacity: 70%;
+    line-height: 16px;
+}
+
+.footer-top-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-top-nav ul{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-top-nav .navigation-main a{
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer-top-nav li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-socials ul{
+    display: flex;
+}
+
+.footer-items{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px 0;
+    gap: 100px;
+}
+
+
+@media (max-width: 992px) {
+    
+ 
+ .footer-top-nav{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+ }
+ 
+ .footer-top-nav ul{
+     max-width: 250px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ .footer-top-nav .navigation-main a{
+     font-size: 16px;
+     font-weight: 700;
+ }
+ .footer-top-nav li a{
+     font-size: 14px;
+     font-weight: 400;
+ }
+ 
+ .footer-socials{
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+ }
+ 
+ .footer-socials ul{
+     display: flex;
+ }
+ 
+ .footer-items{
+     display: flex;
+     /* justify-content: space-between; */
+     padding: 20px 0;
+     gap: 20px;
+ }
+ 
+ 
+ }
+
+ 
+@media (max-width: 720px) {
+    
+ 
+    .footer-top-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1px;
+    }
+    
+    .footer-top-nav ul{
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-top-nav .navigation-main a{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .footer-top-nav li a{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .footer-socials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer-socials ul{
+        display: flex;
+    }
+    
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        padding: 20px 0;
+        gap: 30px;
+    }
+    
+    
+    }
+
+    @media (max-width: 490px) {
+    
+ 
+        .footer-top-nav{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        .footer-top-nav ul{
+            max-width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .footer-top-nav .navigation-main a{
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .footer-top-nav li a{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+        .footer-socials{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .footer-socials ul{
+            display: flex;
+        }
+        
+        .footer-items{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            padding: 20px 0;
+            gap: 30px;
+        }
+        
+        
+        }

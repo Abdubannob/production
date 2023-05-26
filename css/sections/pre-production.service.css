@@ -1,0 +1,111 @@
+.service-opt{
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.camera-services{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rating-button{
+    display: flex;
+}
+
+.rating-button .rate p{
+    font-size: 15px;
+    color: #757575;
+    font-weight: 600;
+}
+
+.left-camera-service{
+    width: 210px;
+    height: 187px;
+    border-top-left-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-camera-service img{
+    width: 100%;
+    min-height: 100%;
+    border-top-left-radius: 12px;
+}
+
+.right-camera-service{
+    width: 80%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.top-camera-service{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #EAF9F5;
+}
+
+.top-camera-service .title-service{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-service button{
+    background-color: transparent;
+    border: none;
+}
+
+.title-service h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.rating-button button{
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #20735F;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.text-service{
+    font-size: 14px;
+    color: #111111;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.bottom-camera-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bottom-camera-service button{
+    border: none;
+    background-color: transparent;
+}
+.camera-service-left{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-info span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.camera-service-right button{
+    padding: 11px 20px;
+    background-color: #20735F;
+    border-radius: 6px;
+    color: #ffffff;
+}
